@@ -1,0 +1,187 @@
+body {
+    font-family: 'Poppins',
+    sans-serif;
+}
+.navbar-nav .nav-item {
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+.logo {
+    width: 50%;
+}
+
+/* Start hero section css  */
+section {
+    padding-top: 50px;
+}
+.hero-content {
+    padding-top: 100px;
+}
+.hero-content h1 {
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+.hero-content p {
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.btn {
+    background-color: #4D42CB;
+    color: white;
+    padding: 8px 7px;
+}
+
+/* Start W0Man Jacket section */
+.service-heading h1 {
+    font-weight: 700;
+    font-size: 50px;
+}
+.service-btn {
+    background-color: #96B032;
+    margin-left: 100px;
+}
+.services-image {
+    background-color: #F1F1F1;
+    border-radius: 20px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    height: 350px;
+}
+.services-image .img1 {
+    width: 300px;
+    height: 320px;
+    padding: 10px;
+}
+
+
+/* start box section  */
+.box {
+    width: 100%;
+    height: 120px;
+    display: flex;
+}
+.box .icon {
+    width: 60px;
+    height: 60px;
+}
+.box-content h4 {
+    font-size: 18px;
+    color: #363958;
+}
+
+/* Start footer section  */
+
+#footer {
+    background-image: linear-gradient(to right, #ee3705 0%, #2ef506 100%);
+}
+
+.footer-logo img {
+    width: 400px;
+    height: 100px;
+}
+
+.footer-dec p {
+    color: #ece2e2;
+    line-height: 28px;
+    font-weight: 500px;
+}
+
+.footer-icon ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footer-icon ul li {
+    display: inline-block;
+    transition: all .7s ease;
+}
+
+.footer-icon ul li a {
+    color: #ffffff;
+    font-size: 18px;
+    padding: 8px 16px;
+    background: #101130;
+    border-radius: 5px;
+}
+
+.footer-icon ul li:hover {
+    background: rgb(255, 255, 255);
+    transform: rotate(360deg);
+    transition: all .7s ease;
+}
+
+.footer-icon ul li a:hover {
+    color: rgb(255, 255, 255);
+    background: #FF0000;
+}
+
+.line-div {
+    width: 70px;
+    height: 3px;
+    background: #000;
+}
+
+#footer .footer-details-link-import {
+    margin-top: 190px;
+}
+
+#footer .footer-details-link-import-2 {
+    margin-top: 190px;
+}
+
+#footer .footer-details-link h3 {
+    color: #F0F0F0;
+}
+
+#footer .social-text-link a {
+    color: #F0F0F0;
+    font-size: 18px;
+    border-left: 3px solid red;
+    padding: 0px 16px;
+    text-decoration: none;
+}
+
+.footer-details-link-import {
+    margin-left: 40px;
+}
+
+#footer .social-text-link a:hover {
+    color: black;
+    transition: .7s;
+}
+
+#footer .footer-contact-text span {
+    color: #F0F0F0;
+    font-size: 18px;
+    border-left: 3px solid red;
+    padding: 0px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#footer .footer-contact-text span:hover {
+    color: black;
+    transition: .7s;
+}
+
+#footer-last {
+    background: #000;
+}
+
+#footer-last p {
+    font-weight: 700px;
+}
+
+#footer-last a {
+    color: orange;
+    transition: .7s;
+}
+
+#footer-last a:hover {
+    color: #C03764;
+}
